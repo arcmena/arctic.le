@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        // Files
+        ".eslintrc": true,
+        ".eslintignore": true,
+        ".prettierrc": true,
+        ".prettierignore": true,
+        ".huskyrc": true,
+        ".babelrc": true,
+        "tsconfig.json": true,
+        "codegen.yml": true,
+        "next-env.d.ts": true,
+        "next.config.js": true,
+        // Folders
+        ".next": true,
+        "node_modules": true
+    }
+}
