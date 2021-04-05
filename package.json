@@ -1,0 +1,20 @@
+{
+  "name": "arctic.le",
+  "author": {
+    "name": "Marcelo Mena",
+    "email": "marcelomena011@gmail.com",
+    "url": "https://github.com/arcmena"
+  },
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
