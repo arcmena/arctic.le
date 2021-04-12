@@ -7,7 +7,9 @@ function MyApp({ Component, pageProps }) {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyle />
-            <Component {...pageProps} />
+            <div id="root">
+                <Component {...pageProps} />
+            </div>
         </ThemeProvider>
     )
 }
