@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 const Root = styled.div`
-    padding: 4rem 9rem;
-
     h1 {
         font-size: 13rem;
 
@@ -21,6 +19,22 @@ const Root = styled.div`
         }
 
         user-select: none;
+
+        @media (max-width: ${({ theme: { sizes } }) => sizes.lg}) {
+            font-size: 10rem;
+        }
+
+        @media (max-width: ${({ theme: { sizes } }) => sizes.md}) {
+            font-size: 8rem;
+        }
+
+        @media (max-width: ${({ theme: { sizes } }) => sizes.sm}) {
+            font-size: 5rem;
+        }
+
+        @media (max-width: ${({ theme: { sizes } }) => sizes.xs}) {
+            font-size: 3rem;
+        }
     }
 `
 
