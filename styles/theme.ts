@@ -3,7 +3,8 @@ const theme = {
         primary: '#364cf2',
         black: '#121212',
         black_1: '#121212',
-        gray: '#E3E6EC'
+        gray: '#E3E6EC',
+        gray_1: '#484848'
     },
     mixins: {
         fillContainer: 'width: 100%; height: 100%',
