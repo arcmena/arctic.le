@@ -2,8 +2,10 @@ import Head from 'next/head'
 import styled from 'styled-components'
 
 import Header from 'components/common/Header'
+import Footer from 'components/common/Footer'
 import ShowcasePost from 'components/Posts/ShocasePost'
 import LatestPosts from 'components/Posts/LatestPosts'
+import Separator from 'components/ui/Separator'
 
 const Main = styled.main`
     max-width: ${({ theme: { sizes } }) => sizes.xl};
@@ -34,10 +36,16 @@ export default function Home() {
 
             <Header />
 
+            <Separator />
+
             <Feed>
                 <ShowcasePost />
                 <LatestPosts />
             </Feed>
+
+            <Separator />
+
+            <Footer />
         </Main>
     )
 }

@@ -4,7 +4,8 @@ const theme = {
         black: '#121212',
         black_1: '#121212',
         gray: '#E3E6EC',
-        gray_1: '#484848'
+        gray_1: '#484848',
+        gray_2: '#c1c5ce'
     },
     mixins: {
         fillContainer: 'width: 100%; height: 100%',
