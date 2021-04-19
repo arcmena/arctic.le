@@ -1,8 +1,8 @@
 import { Root } from './styles'
 
-const ShowcasePost = () => {
+const ShowcasePost = ({ href = '#' }) => {
     return (
-        <Root>
+        <Root href={href}>
             <img src="/images/thumb_article10.jpg" alt="article 10" />
 
             <div>

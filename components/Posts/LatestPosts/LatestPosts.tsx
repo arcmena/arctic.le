@@ -1,9 +1,9 @@
 import { Root, Article } from './styles'
 
-const LatestPosts = () => {
+const LatestPosts = ({ href = '#' }) => {
     return (
         <Root>
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>
@@ -16,7 +16,7 @@ const LatestPosts = () => {
                 </div>
             </Article>
 
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>
@@ -29,7 +29,7 @@ const LatestPosts = () => {
                 </div>
             </Article>
 
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>
@@ -42,7 +42,7 @@ const LatestPosts = () => {
                 </div>
             </Article>
 
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>
@@ -55,7 +55,7 @@ const LatestPosts = () => {
                 </div>
             </Article>
 
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>
@@ -68,7 +68,7 @@ const LatestPosts = () => {
                 </div>
             </Article>
 
-            <Article>
+            <Article href={href}>
                 <img src="/images/thumb_article10.jpg" alt="article 10" />
 
                 <div>

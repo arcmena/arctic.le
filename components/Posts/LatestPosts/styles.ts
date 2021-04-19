@@ -17,7 +17,7 @@ export const Root = styled.div`
     }
 `
 
-export const Article = styled.div`
+export const Article = styled.a`
     display: grid;
 
     grid-template-columns: repeat(1, minmax(0, 1fr));

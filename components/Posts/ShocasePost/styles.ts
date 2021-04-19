@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Root = styled.div`
+export const Root = styled.a`
     display: grid;
 
     grid-template-columns: repeat(3, minmax(0, 1fr));

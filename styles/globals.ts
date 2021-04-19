@@ -28,4 +28,9 @@ export default createGlobalStyle`
     #root {
         ${({ theme: { mixins } }) => mixins.fillContainer};
     }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
 `
