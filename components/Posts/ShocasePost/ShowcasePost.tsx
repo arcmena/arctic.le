@@ -9,9 +9,8 @@ const ShowcasePost = () => {
                 <span>25/10/2021</span>
                 <h1>Lorem ipsum dolor sit amet.</h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ipsa illum excepturi, iure quisquam ullam deleniti corporis?
-                    Sapiente ad unde tempore.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde veniam eveniet fugit nihil?
                 </p>
             </div>
         </Root>

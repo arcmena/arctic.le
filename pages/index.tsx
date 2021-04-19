@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Header from 'components/common/Header'
 import ShowcasePost from 'components/Posts/ShocasePost'
+import LatestPosts from 'components/Posts/LatestPosts'
 
 const Main = styled.main`
     max-width: ${({ theme: { sizes } }) => sizes.xl};
@@ -27,7 +28,7 @@ export default function Home() {
     return (
         <Main>
             <Head>
-                <title>Arctic.le | Development & Technology</title>
+                <title>Arctic.le | Development & Technology articles</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
@@ -35,6 +36,7 @@ export default function Home() {
 
             <Feed>
                 <ShowcasePost />
+                <LatestPosts />
             </Feed>
         </Main>
     )

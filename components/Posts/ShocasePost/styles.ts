@@ -8,6 +8,8 @@ export const Root = styled.div`
 
     grid-template-areas: 'image image description';
 
+    cursor: pointer;
+
     img {
         grid-area: image;
         max-width: 100%;
@@ -36,7 +38,7 @@ export const Root = styled.div`
         p {
             font-size: 2rem;
             font-weight: 400;
-            line-height: 2rem;
+            line-height: 2.5rem;
 
             color: ${({ theme: { colors } }) => colors.gray_1};
         }
@@ -80,7 +82,7 @@ export const Root = styled.div`
 
     @media (max-width: ${({ theme: { sizes } }) => sizes.md}) {
         grid-template-columns: repeat(1, minmax(0, 1fr));
-        grid-template-rows: repeat(2, minmax(0, 1fr));
+        grid-template-rows: 2;
         grid-template-areas: 'image' 'description';
     }
 `
